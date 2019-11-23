@@ -89,8 +89,6 @@ server.route ({
     }
 })
 
-
-
 try {
     await sequelize.sync();//({ force: true});
     Post.bulkCreate(data);

@@ -31,7 +31,7 @@ const init = async () => {
                {
                    name: 'fitafit', // nome do banco --> Alias
                    models: [
-                       'src/api/**/**.models.js'
+                       './src/api/**/**.models.js'
                     ],
                     sequelize,
                     sync: true

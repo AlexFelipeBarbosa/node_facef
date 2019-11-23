@@ -1,6 +1,6 @@
 import { instances } from 'hapi-sequelizejs'
 
-const Post = instances.getModel('Post');
+const Post = instances.getModel('post');
 
 export default class PostsDAO {
     findAll() {
